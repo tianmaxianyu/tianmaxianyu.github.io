@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-01T09:27:03.839Z</updated>
+  <updated>2019-07-02T09:02:13.946Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MarkdownPad2初体验及问题解决</title>
+    <link href="http://yoursite.com/2019/07/02/MarkDown/"/>
+    <id>http://yoursite.com/2019/07/02/MarkDown/</id>
+    <published>2019-07-02T08:26:35.969Z</published>
+    <updated>2019-07-02T09:02:13.946Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Markdown下载"><a href="#Markdown下载" class="headerlink" title="Markdown下载"></a>Markdown下载</h2><p><strong>Windows系统</strong></p><p>了解到的主要有两种：<a href="http://www.markdownpad.com/" target="_blank" rel="noopener">MarkdownPad</a>，另一款叫<a href="http://code52.org/DownmarkerWPF/" target="_blank" rel="noopener">MarkPad</a>，这两款是Windows系统下常用的Markdown工具，我用的就是MarkdownPad2</p><p><img src="/Markdown.png" alt="MarkDown"></p><p><strong>macOS系统</strong></p><blockquote><p>在 macOS 上可以使用 <a href="http://25.io/mou/" target="_blank" rel="noopener">Mou</a>，它支持实时预览，既左边是你编辑 Markdown 语言，右边会实时的生成预览效果</p></blockquote><p>##问题##</p><p>因为我下载的是Markdownpad2工具，所以我就以这个工具遇到的问题阐述一下，如果你的系统是win10，在安装完Markdown还会发生如下图所示的问题。</p><p><img src="/problem.png" alt="problem"></p><p>这个时候可能你会很慌，怎么在刚下载的东西都不能用了，是不是安装步骤错误了，其实并不是，你只要下载这个东西<a href="http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe" target="_blank" rel="noopener">awesomium_v1.6.6_sdk_win</a>，然后重启一下MarkDown就可以了</p><blockquote><p>如果还是不行的话就执行以下步骤：<br>下载<a href="https://www.microsoft.com/en-us/download/details.aspx?id=8109" target="_blank" rel="noopener">Microsoft’s DirectX End-User Runtimes (June 2010)</a>，就OK了（我是在上一步就完成了，所以这一步是参考网上的）</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Markdown下载&quot;&gt;&lt;a href=&quot;#Markdown下载&quot; class=&quot;headerlink&quot; title=&quot;Markdown下载&quot;&gt;&lt;/a&gt;Markdown下载&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Windows系统&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;了解到的
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>我的家</title>
