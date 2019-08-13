@@ -5,12 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Hello World - Hexo</title>
+    <title> - Hexo</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate">
     <meta name="keywords" content="Tianmaxianyu,"> 
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any pr,"> 
+    <meta name="description" content="#butterknife（黄油刀）使用教程
+
+#GitHub地址
+
+butterknife链接：github地址
+
+
+#添加依赖1.根目录的build.gradle添加
+buildscript {
+,"> 
     <meta name="author" content="John Doe"> 
     <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
     <link rel="icon" href="/img/tianmaxianyu.png"> 
@@ -35,7 +44,7 @@
     <div class="bar" style="width: 0;"></div>
     <a class="icon-home image-icon" href="javascript:;" data-url="http://yoursite.com"></a>
     <div title="播放/暂停" class="icon-play"></div>
-    <h3 class="subtitle">Hello World</h3>
+    <h3 class="subtitle"></h3>
     <div class="social">
         <!--<div class="like-icon">-->
             <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
@@ -53,22 +62,52 @@
     <div class="section">
         <div class="article">
     <div class='main'>
-        <h1 class="title">Hello World</h1>
+        <h1 class="title"></h1>
         <div class="stuff">
-            <span>七月 01, 2019</span>
+            <span>八月 13, 2019</span>
             
 
         </div>
         <div class="content markdown">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <p>#butterknife（黄油刀）使用教程</p>
+<hr>
+<p>#GitHub地址</p>
+<blockquote>
+<p>butterknife链接：<a href="https://github.com/JakeWharton/butterknife" target="_blank" rel="noopener">github地址</a></p>
+</blockquote>
+<hr>
+<p>#添加依赖<br>1.根目录的build.gradle添加</p>
+<pre><code>buildscript {
+
+repositories {
+    google()
+    jcenter()
+}
+dependencies {
+    classpath &apos;com.android.tools.build:gradle:3.2.0&apos;
+    //黄油刀
+    classpath &apos;com.jakewharton:butterknife-gradle-plugin:8.8.1&apos;
+
+}
+</code></pre><p>2.app目录下的build.gradle添加(AS3.0以上):</p>
+<pre><code>implementation &apos;com.jakewharton:butterknife:8.8.1&apos;
+annotationProcessor &apos;com.jakewharton:butterknife-compiler:8.8.1&apos; 
+}
+</code></pre><p>完成以上步骤之后就可以正常使用了。(以下是成功的模板)</p>
+<p><img src="/butterknife/finish.png" alt="图1"></p>
+<hr>
+<p>在此也给大家推荐一个很好用的Android Studio插件：Android ButterKnife Zelezny，这是一个直接可以帮我初始化的工具，都不用我们手动输入了，既然这么好用，看一下它到底如何操作吧。</p>
+<p>###安装过程<br>1.点击左上角的File，点击打开setting，按以下步骤操作<br><img src="/butterknife/step1.png" alt="图2"></p>
+<p>2.第二步，搜索Android ButterKnife Zelezny：</p>
+<p><img src="/butterknife/step2.png" alt="图3"></p>
+<p>3.因为我之前是安装过的了，所以就不用在次安装了，其实就是直接点击Install就安装完成了，然后重启一下Android Studio就OK了。</p>
+<p>###使用：<br>1.将鼠标放到下图标记的地方，</p>
+<p><img src="/butterknife/step4.png" alt="图4"></p>
+<p>2.点击右键，再点击Generate（），（其实也可以直接按alt+insert直接打开），就打开如下画面：</p>
+<p><img src="/butterknife/step5.png" alt="图5"></p>
+<p>3.第二部完成之后就出现以下界面，剩下就自由发挥了。</p>
+<p><img src="/butterknife/step3.png" alt="图6"></p>
+<p>以上就是全部步骤。</p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
